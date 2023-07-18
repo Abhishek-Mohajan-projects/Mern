@@ -17,7 +17,7 @@ const path = require("path");
 const extensionName = path.extname("index.jsx"); // return the ext name of the file
 console.log(extensionName);
 
-const join = path.join(__dirname + "/views.js");
+const join = path.join(__dirname + "/view.js");
 
 /* const join = path.join(__dirname + "/../views.js"); */
 console.log(join);

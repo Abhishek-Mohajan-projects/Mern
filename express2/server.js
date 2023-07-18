@@ -34,8 +34,7 @@ app.use(bodyParser.json());
 app.post("/user", (req, res) => {
   const name = req.body.name;
   const age = req.body.age;
-  const id = req.body.id;
-  res.send(`<h1>Hi, ${name}, your age is: ${age}, id is: ${id}</h1>`);
+  res.send(`<h1>Hi, ${name}, your age is: ${age}</h1>`);
 });
 
 app.listen(PORT, () => {

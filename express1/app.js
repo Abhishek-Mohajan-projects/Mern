@@ -4,7 +4,7 @@ const userRouter = require("./routes/user.route");
 
 app.get("/", (req, res) => {
   /* res.send("<h1>I am a get request at Home Route</h1>"); */
-  res.statusCode = 202;
+  res.statusCode = 200;
   res.sendFile(__dirname + "/views/index.html"); // showing html file
 });
 

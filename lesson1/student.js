@@ -7,7 +7,7 @@ const age = () => {
 };
 
 const cgpa = () => {
-  return 3.77;
+  return 3.83;
 };
 
 /* module.exports = {

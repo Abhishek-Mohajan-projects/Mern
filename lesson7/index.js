@@ -19,7 +19,7 @@ const server = http.createServer((req, res) => {
       res.end();
     }); */
   } else if (req.url === "/about") {
-    readFile(200, "./views/about.html");
+    readFile(202, "./views/about.html");
     /* fs.readFile("./views/about.html", (err, data) => {
       res.writeHead(200, { "Content-Type": "text/html" });
       res.write(data);
